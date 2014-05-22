@@ -42,6 +42,11 @@ public class PlayerAirState : SKState<PlayerModel>
 		
 		// apply gravity before moving
 		_context.velocity.y += _context.gravity * deltaTime;
+
+		if (_context.velocity.y < 0.0f)
+		{
+			_context.animator.Play( Animator.StringToHash( "Fall" ) );
+		}
 		
 		_context.characterController2D.move( _context.velocity * deltaTime );
 	}
