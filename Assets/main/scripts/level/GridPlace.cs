@@ -25,8 +25,8 @@ public class GridPlace : MonoBehaviour
 		int max = data.Length;
 		for (int i = 0; i < max; i++)
 		{
-			float x = i % nColumns * tileSize;
-			float y = (i / nRows) * tileSize;
+			float x = (i % nColumns) * tileSize;
+			float y = (i / nColumns) * tileSize;
 			Vector2 pos = new Vector2( x, y );
 			PlaceFill( fillTypes[data[i]], pos );
 		}
