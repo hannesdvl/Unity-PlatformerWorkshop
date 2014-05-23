@@ -6,10 +6,12 @@ public class SpeechTrigger : MonoBehaviour
 	public SpriteRenderer speechBubble;
 	public TextMesh textMesh;
 	public string text = "";
-	public GameObject fetch;
+	public Transform fetch;
 	public string afterFetch = "";
 	public int lineLenth = 25;
+	public Transform target;
 
+	string _text;
 	GoTween _twnEnter;
 	GoTween _twnExit;
 	Vector3 _originalScale;
@@ -17,6 +19,8 @@ public class SpeechTrigger : MonoBehaviour
 	void Awake()
 	{
 		text = ResolveTextSize (text, lineLenth);
+		afterFetch = ResolveTextSize (afterFetch, lineLenth);
+		_text = text;
 
 		_originalScale = speechBubble.transform.localScale;
 		speechBubble.enabled = false;
@@ -36,7 +40,26 @@ public class SpeechTrigger : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.CompareTag ("Player") && !speechBubble.enabled)
+		Transform fetchObj = (other.transform.childCount > 0) ? other.transform.GetChild(0) : null;
+		if(fetchObj == fetch)
+		{
+			_text = afterFetch;
+			fetchObj.parent = target;
+			fetchObj.position = target.position;
+			fetchObj.collider2D.enabled = false;
+
+			StartSpeech();
+		}
+
+		else if (other.CompareTag ("Player"))
+		{
+			StartSpeech();
+		}
+	}
+
+	void StartSpeech()
+	{
+		if(!speechBubble.enabled)
 		{
 			StopCoroutine("SpeechHideCR");
 			_twnExit.pause();
@@ -55,7 +78,7 @@ public class SpeechTrigger : MonoBehaviour
 
 	void OnEnterComplete(AbstractGoTween tween)
 	{
-		textMesh.text = text;
+		textMesh.text = _text;
 	}
 
 	void OnExitComplete(AbstractGoTween tween)

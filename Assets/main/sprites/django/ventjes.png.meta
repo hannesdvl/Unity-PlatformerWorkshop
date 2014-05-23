@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 09f62b1703c66a343b68b8ed8e82af64
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: ventjes_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 559
+        width: 447
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 544
+        width: 444
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_2
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 504
+        width: 258
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_3
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 503
+        width: 259
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_4
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 664
+        width: 288
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 27
+        width: 333
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 33
+        width: 345
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 47
+        width: 200
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_8
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 45
+        width: 196
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ventjes_9
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 72
+        width: 348
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 35d379f38f4c38149924d8224d09459a
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: objects_0
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 776
+        width: 134
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 515
+        width: 183
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_2
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 511
+        width: 156
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_3
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 511
+        width: 161
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 541
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_5
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 527
+        width: 145
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_6
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 539
+        width: 118
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_7
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 529
+        width: 144
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_8
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 547
+        width: 113
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_9
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 551
+        width: 124
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 112
+        width: 145
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 103
+        width: 131
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_12
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 115
+        width: 164
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_13
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 112
+        width: 98
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_14
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 101
+        width: 146
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_15
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 117
+        width: 150
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_16
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 113
+        width: 150
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_17
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 105
+        width: 135
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: objects_18
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 135
+        width: 218
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

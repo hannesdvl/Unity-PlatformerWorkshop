@@ -7,8 +7,10 @@ public class Collectable : MonoBehaviour
 	{
 		if (other.CompareTag ("Player"))
 		{
-			transform.position = other.transform.position;
+			Vector3 lclScale = transform.localScale;
 			transform.parent = other.transform;
+			transform.position = other.transform.position;
+			transform.localScale = lclScale;
 		}
 	}
 }
